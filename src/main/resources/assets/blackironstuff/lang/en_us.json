@@ -1,0 +1,19 @@
+{
+  "item.blackironstuff.black_iron_ingot": "Black Iron Ingot",
+  "item.blackironstuff.black_iron_sword": "Black Iron Sword",
+  "item.blackironstuff.helicopter": "Helicopter",
+  "item.blackironstuff.black_iron_helmet": "Black Iron Helmet",
+  "item.blackironstuff.black_iron_chestplate": "Black Iron Chestplate",
+  "item.blackironstuff.black_iron_leggings": "Black Iron Leggings",
+  "item.blackironstuff.black_iron_boots": "Black Iron Boots",
+  "item.blackironstuff.raw_black_iron": "Raw Black Iron",
+
+  "block.blackironstuff.black_iron_ore": "Black Iron Ore",
+  "block.blackironstuff.black_iron_deepslate_ore": "Black Iron Deepslate Ore",
+  "block.blackironstuff.raw_black_iron_ore": "Raw Black Iron Ore",
+  "block.blackironstuff.black_iron_block": "Black Iron Block",
+
+  "itemGroup.blackironstuff": "Black Iron Stuff",
+
+  "sound.blackironstuff.helicopter": "Helicopter Sound"
+}

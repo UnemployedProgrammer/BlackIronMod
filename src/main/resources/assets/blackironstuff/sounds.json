@@ -1,0 +1,8 @@
+{
+  "helicopter": {
+    "subtitle": "sound.blackironstuff.helicopter",
+    "sounds": [
+      "blackironstuff:helicopter"
+    ]
+  }
+}

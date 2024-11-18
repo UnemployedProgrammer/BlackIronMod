@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "blackironstuff",
+  "version": "${version}",
+  "name": "Black Iron Stuff API",
+  "description": "Small Help for parent mod!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/blackironstuff/icon_api.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.sebastian.blackironstuff.client.BlackIronModClient"
+    ],
+    "main": [
+      "de.sebastian.blackironstuff.BlackIronMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+      },
+      "badges": [
+        "library"
+      ],
+      "parent": {
+        "id": "blackiron",
+        "name": "Black Iron Weapons and Tools",
+        "description": "No need to tell you what it adds, just take a look at the description.",
+        "icon": "assets/blackironstuff/icon.png",
+        "badges": []
+      },
+      "update_checker": true
+    }
+  }
+}

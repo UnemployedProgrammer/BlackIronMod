@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "blackironstuff:item/black_iron_shovel"
+  }
+}
