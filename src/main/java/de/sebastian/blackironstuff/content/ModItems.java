@@ -35,7 +35,7 @@ public class ModItems {
     );
 
     public static final Item BLACK_IRON_SWORD = register(new SwordItem(ToolMaterials.BLACK_IRON_MATERIAL, (new Item.Settings()).attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.BLACK_IRON_MATERIAL, 20, 4F))), "black_iron_sword");
-    public static final Item BLACK_IRON_PICKAXE = register(new PickaxeItem(ToolMaterials.BLACK_IRON_MATERIAL, (new Item.Settings()).attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.BLACK_IRON_MATERIAL, 1, 0.1F))), "black_iron_pickaxe");
+    public static final Item BLACK_IRON_PICKAXE = register(new PickaxeItem(ToolMaterials.BLACK_IRON_MATERIAL, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.BLACK_IRON_MATERIAL, 1, 0.1F))), "black_iron_pickaxe");
     public static final Item BLACK_IRON_SHOVEL = register(new ShovelItem(ToolMaterials.BLACK_IRON_MATERIAL, (new Item.Settings()).attributeModifiers(ShovelItem.createAttributeModifiers(ToolMaterials.BLACK_IRON_MATERIAL, 1, 0.1F))), "black_iron_shovel");
     public static final Item BLACK_IRON_AXE = register(new AxeItem(ToolMaterials.BLACK_IRON_MATERIAL, (new Item.Settings()).attributeModifiers(AxeItem.createAttributeModifiers(ToolMaterials.BLACK_IRON_MATERIAL, 1, 0.1F))), "black_iron_axe");
     public static final Item BLACK_IRON_HOE = register(new HoeItem(ToolMaterials.BLACK_IRON_MATERIAL, (new Item.Settings()).attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.BLACK_IRON_MATERIAL, 1, 0.1F))), "black_iron_hoe");

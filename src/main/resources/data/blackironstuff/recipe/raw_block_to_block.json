@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "equipment",
+  "ingredient": {
+    "item": "blackironstuff:raw_black_iron_block"
+  },
+  "result": {
+    "id": "blackironstuff:black_iron_block"
+  },
+  "experience": 7,
+  "cookingtime": 1800
+}

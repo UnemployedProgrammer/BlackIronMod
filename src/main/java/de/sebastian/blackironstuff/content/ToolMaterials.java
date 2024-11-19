@@ -5,6 +5,7 @@ import net.minecraft.item.Items;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
 public class ToolMaterials {
@@ -19,7 +20,7 @@ public class ToolMaterials {
 
         @Override
         public float getMiningSpeedMultiplier() {
-            return 14.0F;
+            return 30.0F;
         }
 
         @Override
@@ -29,7 +30,7 @@ public class ToolMaterials {
 
         @Override
         public TagKey<Block> getInverseTag() {
-            return null;
+            return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
         }
 
         @Override

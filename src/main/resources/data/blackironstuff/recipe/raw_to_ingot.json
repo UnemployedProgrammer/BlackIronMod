@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "equipment",
+  "ingredient": {
+    "item": "blackironstuff:raw_black_iron_"
+  },
+  "result": {
+    "id": "blackironstuff:black_iron_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

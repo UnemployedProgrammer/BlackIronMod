@@ -1,6 +1,10 @@
 {
   "item.blackironstuff.black_iron_ingot": "Black Iron Ingot",
   "item.blackironstuff.black_iron_sword": "Black Iron Sword",
+  "item.blackironstuff.black_iron_pickaxe": "Black Iron Pickaxe",
+  "item.blackironstuff.black_iron_axe": "Black Iron Axe",
+  "item.blackironstuff.black_iron_shovel": "Black Iron Shovel",
+  "item.blackironstuff.black_iron_hoe": "Black Iron Hoe",
   "item.blackironstuff.helicopter": "Helicopter",
   "item.blackironstuff.black_iron_helmet": "Black Iron Helmet",
   "item.blackironstuff.black_iron_chestplate": "Black Iron Chestplate",
@@ -10,7 +14,7 @@
 
   "block.blackironstuff.black_iron_ore": "Black Iron Ore",
   "block.blackironstuff.black_iron_deepslate_ore": "Black Iron Deepslate Ore",
-  "block.blackironstuff.raw_black_iron_ore": "Raw Black Iron Ore",
+  "block.blackironstuff.raw_black_iron_block": "Raw Black Iron Block",
   "block.blackironstuff.black_iron_block": "Black Iron Block",
 
   "itemGroup.blackironstuff": "Black Iron Stuff",
