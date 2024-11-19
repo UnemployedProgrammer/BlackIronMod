@@ -15,8 +15,14 @@
     ],
     "main": [
       "de.sebastian.blackironstuff.BlackIronMod"
+    ],
+    "fabric-gametest": [
+      "de.sebastian.blackironstuff.gametest.ModGameTests"
     ]
   },
+  "mixins": [
+    "blackironstuff.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
