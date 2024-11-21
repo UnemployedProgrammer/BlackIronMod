@@ -1,9 +1,9 @@
 package de.sebastian.blackironstuff.content;
 
 import de.sebastian.blackironstuff.BlackIronMod;
+import de.sebastian.blackironstuff.content.custom.block.ReinforcerBeBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -11,12 +11,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.intprovider.IntProvider;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static void initialize() {}
-    public static Block register(Block block, String name, boolean shouldRegisterItem) {
+    public static <T extends Block> T register(T block, String name, boolean shouldRegisterItem) {
         // Register the block and its item.
         Identifier id = Identifier.of(BlackIronMod.MOD_ID, name);
 
@@ -52,4 +51,12 @@ public class ModBlocks {
             "black_iron_block",
             true
     );
+
+    //BE
+
+    public static final ReinforcerBeBlock REINFORCER_BE_BLOCK = register(
+            new ReinforcerBeBlock(AbstractBlock.Settings.create()
+                    .strength(1.5F, 6.0F)
+                    .requiresTool()), "reinforcer_be", true);
+
 }

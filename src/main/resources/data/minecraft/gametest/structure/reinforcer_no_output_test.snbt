@@ -1,0 +1,26 @@
+{
+    DataVersion: 3955,
+    size: [2, 3, 2],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:polished_andesite"},
+        {pos: [0, 0, 1], state: "minecraft:polished_andesite"},
+        {pos: [1, 0, 0], state: "minecraft:polished_andesite"},
+        {pos: [1, 0, 1], state: "minecraft:polished_andesite"},
+        {pos: [0, 1, 0], state: "minecraft:air"},
+        {pos: [0, 1, 1], state: "blackironstuff:reinforcer_be", nbt: {Items: [{Slot: 0b, count: 42, id: "minecraft:netherite_ingot"}], id: "blackironstuff:reinforcer_be", signalHistory: [I; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], tickCounter: 0, timeRecorded: 4}},
+        {pos: [1, 1, 0], state: "minecraft:air"},
+        {pos: [1, 1, 1], state: "minecraft:hopper{enabled:true,facing:west}", nbt: {Items: [{Slot: 0b, count: 22, id: "minecraft:netherite_ingot"}], TransferCooldown: 5, id: "minecraft:hopper"}},
+        {pos: [0, 2, 0], state: "minecraft:air"},
+        {pos: [0, 2, 1], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {Items: [], id: "minecraft:chest"}},
+        {pos: [1, 2, 0], state: "minecraft:air"},
+        {pos: [1, 2, 1], state: "minecraft:air"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:polished_andesite",
+        "minecraft:air",
+        "blackironstuff:reinforcer_be",
+        "minecraft:hopper{enabled:true,facing:west}",
+        "minecraft:chest{facing:north,type:single,waterlogged:false}"
+    ]
+}

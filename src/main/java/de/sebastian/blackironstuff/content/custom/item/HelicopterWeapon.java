@@ -1,5 +1,6 @@
-package de.sebastian.blackironstuff.content;
+package de.sebastian.blackironstuff.content.custom.item;
 
+import de.sebastian.blackironstuff.content.ModSounds;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.item.*;

@@ -1,6 +1,7 @@
 package de.sebastian.blackironstuff.content;
 
 import de.sebastian.blackironstuff.BlackIronMod;
+import de.sebastian.blackironstuff.content.custom.item.HelicopterWeapon;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
